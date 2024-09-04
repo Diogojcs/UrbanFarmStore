@@ -1,0 +1,4 @@
+.input-group .form-control {
+  flex-grow: 1; /* Faz o campo de entrada ocupar o máximo de espaço */
+  min-width: 250px; /* Define uma largura mínima para o campo */
+}
