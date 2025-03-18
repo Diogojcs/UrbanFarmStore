@@ -2,9 +2,12 @@
   flex-grow: 1; /* Faz o campo de entrada ocupar o máximo de espaço */
   min-width: 250px; /* Define uma largura mínima para o campo */
 }
+<<<<<<< HEAD
 
 .card-img-top {
   max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
   height: 200px; /* Define uma altura fixa para as imagens */
   object-fit: contain; /* Mantém a proporção da imagem e cobre o espaço */
 }
+=======
+>>>>>>> 40fafd30b82eeb3e0eec49175acf6868406ff6c8

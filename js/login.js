@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Alterna a visibilidade da senha do login
+=======
+// Alterna a visibilidade da senha
+>>>>>>> 40fafd30b82eeb3e0eec49175acf6868406ff6c8
 
 const togglePassword = document.querySelector("#togglePassword");
 const password = document.querySelector("#password");
