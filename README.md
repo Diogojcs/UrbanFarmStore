@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # UrbanFarmStore
 =======
 # Urban Farm Store - Loja Online com Sistema de Login
@@ -75,4 +75,4 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir um pull r
 - Opção de personalização de temas.
 
 
->>>>>>> 40fafd30b82eeb3e0eec49175acf6868406ff6c8
+
