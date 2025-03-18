@@ -61,8 +61,7 @@ urban-farm-store/
 
 3. Abra o arquivo `index.html` em um navegador da web.
 
- ![Captura de tela 2025-01-14 011031](https://github.com/user-attachments/assets/33c2ffdb-e977-46be-9d2e-e4fba2b63673)
-
+ ![Captura de tela 2025-03-18 000812](https://github.com/user-attachments/assets/a7e15560-7cc3-4db0-8ddb-ede0a604fe4f)
 
 ## 🔬 **Contribuições:**
 
