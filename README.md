@@ -1,6 +1,3 @@
-
-# UrbanFarmStore
-=======
 # Urban Farm Store - Loja Online com Sistema de Login
 
 Bem-vindo ao repositório da **Urban Farm Store**, uma loja virtual responsiva e moderna, desenvolvida para proporcionar uma experiência simples e intuitiva aos usuários. O projeto integra um sistema de login seguro e fácil navegação entre suas seções.
