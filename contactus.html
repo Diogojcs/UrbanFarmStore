@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- IMAGEM FAVICON - https://www.favicon-generator.org -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/imgs/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/imgs/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/imgs/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/imgs/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/imgs/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="/imgs/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- IMAGEM FAVICON -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <!-- Link para o CSS customizado   styles.css -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Loja Online - Contact us</title>
+  </head>
+
+  <body style="min-width: 372px">
+    <!-- Body  -  Tamanho minimo da tela que o site irá funcionar-->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-success border-bootom shadow-sm mb-3"
+    >
+      <!-- Navbar - Barra de navegação  -  Cor tamanho e forma -->
+
+      <div class="container">
+        <a class="navbar-brand" href="/index.html"><strong>LOGO</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse  " id="navbarContent">
+          <div class="d-flex bd-highlight me-5">
+            <!-- Campo de pesquisa -->
+            <div class="input-group mb-1 d-none d-lg-flex ms-5 mt-1 ">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Pesquisar"
+              />
+              <button class="btn btn-light" type="submit">
+                <img
+                  src="/node_modules/bootstrap-icons/icons/search.svg"
+                  alt="Pesquisar"
+                  width="20"
+                  height="20"
+                />
+              </button>
+            </div>
+          </div>
+
+          <!-- Botões para acessar outras páginas -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item me-3">
+              <a href="/products.html" class="nav-link text-white">
+                <i class="bi bi-basket text-light me-2"></i>Products</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a href="/aboutus.html" class="nav-link text-white ">About us</a>
+            </li>
+            <li class="nav-item me-3">
+              <a href="/help.html" class="nav-link text-white ">Help</a>
+            </li>
+            <li class="nav-item me-3 ">
+              <a href="contactus.html" class="nav-link bi bi-telephone text-white "> Contact us</a>
+            </li>
+
+          </ul>
+
+          <!-- Botões flutuantes para acessar login e cadastro -->
+          
+            <ul class="navbar-nav">
+              
+              <li class="nav-item me-3">
+                <a href="/login.html" class="nav-link text-white"><i class="bi bi-box-arrow-in-right text-light me-2"></i>
+                  Login
+              </a>
+              </li>
+
+              <li class="nav-item me-3">
+                <a href="/signin.html" class="nav-link text-white">Sign in</a>
+              </li>
+              <li class="nav-item me-3">
+                <button id="cart-toggle" class="btn nav-link">
+                  <i class="bi bi-cart text-light me-2"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <header>
+      <!-- Page Title -->
+      <div class="container my-5">
+        <h1 class="text-center">Contact Us</h1>
+        <p class="text-center">We're here to help! Reach out to us for any questions or concerns.</p>
+      </div>
+    </header>
+
+
+    <main>
+      <!-- Contact Form Section -->
+      <section class="container my-5">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section class="container my-5">
+        <h2 class="text-center mb-4">Our Location</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d144.9537353153166!3d-37.81627974202167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d2aabc5e2f1a!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1625061234567!5m2!1sen!2sus"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Customer Support Section -->
+      <section class="bg-light py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Customer Support</h2>
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <i class="bi bi-telephone" style="font-size: 2rem;"></i>
+              <h5>Phone Support</h5>
+              <p>+1 (123) 456-7890</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <i class="bi bi-envelope" style="font-size: 2rem;"></i>
+              <h5>Email Support</h5>
+              <p>support@urbanfarmstore.com</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <i class="bi bi-clock" style="font-size: 2rem;"></i>
+              <h5>Working Hours</h5>
+              <p>Mon - Fri: 9 AM - 6 PM</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodape da  pagina -->
+    <footer class="border-top fixed-bottom text-muted bg-light">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12 col-md-4 text-center text-md-left">
+            &copy;2024 - Urban Farm Store
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <a href="/privacypolicy.html" class="text-decoration-none text-dark"
+              >Privacy Policy</a
+            >
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-rigt">
+            <a href="#" class="text-decoration-none text-dark">Manage</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/productskart.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
